@@ -1,65 +1,78 @@
 body {
-    background-image: url("https://media0.giphy.com/media/Eqz8ZFUScPHH2/giphy.gif?cid=790b761130c35b8f687a69cbeead650c3b651700076abbeb&rid=giphy.gif&ct=g");
-    /* background-image: url(); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(255, 255, 255);
+  background-image: url("https://media0.giphy.com/media/Eqz8ZFUScPHH2/giphy.gif?cid=790b761130c35b8f687a69cbeead650c3b651700076abbeb&rid=giphy.gif&ct=g");
+  /* background-image: url(); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
 }
 
 #header {
-    text-align: center;
-    font-family: Verdana;
-    color: rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 2px;
-    border:solid 1px rgb(255, 255, 255);
-    border-radius: 3px;
-    background-image: linear-gradient(to bottom right, rgb(9, 35, 65), rgb(48, 10, 26));
+  text-align: center;
+  font-family: Verdana;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 2px;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(9, 35, 65),
+    rgb(48, 10, 26)
+  );
 }
-
-
 
 button {
-    background-image: linear-gradient(to bottom right, rgb(9, 35, 65), rgb(48, 10, 26));    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-family: Verdana;
-    color: aliceblue;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    border-radius: 10px;
-    border-color: rgb(255, 255, 255);
-    margin-top: 5%;
-    width: 100%;
-    height: 80px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(9, 35, 65),
+    rgb(48, 10, 26)
+  );
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  font-family: Verdana;
+  color: aliceblue;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 255);
+  margin-top: 5%;
+  width: 100%;
+  height: 80px;
 }
 
-#quote{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+p {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+#quote {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 #rand {
-    /* background-image: url("https://c.tenor.com/zjynKsKD-CMAAAAd/douma-demon-slayer.gif"); */
-    background-image: url("https://media0.giphy.com/media/QCJlIDkOJDEIctfdzz/giphy.gif?cid=ecf05e47h2whdx2p6ekqu0ue5evh2n5a2rw5un0qsgqe2iur&rid=giphy.gif&ct=g");
+  /* background-image: url("https://c.tenor.com/zjynKsKD-CMAAAAd/douma-demon-slayer.gif"); */
+  background-image: url("https://media0.giphy.com/media/QCJlIDkOJDEIctfdzz/giphy.gif?cid=ecf05e47h2whdx2p6ekqu0ue5evh2n5a2rw5un0qsgqe2iur&rid=giphy.gif&ct=g");
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 #generate {
-    background-image: url("https://thumbs.gfycat.com/DishonestPolishedEmeraldtreeskink-size_restricted.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url("https://thumbs.gfycat.com/DishonestPolishedEmeraldtreeskink-size_restricted.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button:hover {
-    background-color: red;
-    opacity: 0.7;
+  background-color: red;
+  opacity: 0.7;
 }
